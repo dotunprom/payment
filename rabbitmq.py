@@ -1,4 +1,6 @@
-
+import os
+import json
+import pika
 
 class Publisher:
     HOST = os.getenv('AMQP_HOST', 'rabbitmq')
